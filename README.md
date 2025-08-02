@@ -28,31 +28,56 @@ Built an interactive dashboard with filters for outlet size, location, and item 
 
 Visualized KPIs using cards, donut charts, bar charts, and line charts.
 
+🔹 Key Features
+✅ Data Cleaning & Transformation (SQL)
+
+Fixed inconsistent categorical values (LF, low fat → Low Fat; reg → Regular).
+
+Performed aggregations using SUM, AVG, COUNT, and GROUP BY.
+
+✅ Advanced KPI Calculations (DAX)
+
+Created custom measures for Total Sales, Average Sales, Sales % Contribution, and Average Ratings.
+
+✅ Interactive Slicers (Cross-Filtering)
+
+Added slicers for Outlet Size, Outlet Location Type, and Item Type.
+
+Selecting any option dynamically updates all visuals (KPIs, charts, and tables) to reflect filtered insights.
+
+✅ Dashboard Visuals
+
+Bar, Line, and KPI cards for real-time insights.
+
+Year-wise, category-wise, and outlet-wise performance breakdown.
+
+
+
 -> Key Insights
  -Total Sales: $1.20M
  -Average Sales: $141
  -Average Rating: 3.9
  -Tier 3 outlets generate the highest sales ($472K)
  -Medium-sized outlets contribute the highest revenue ($507K, 42.27%)
-
--> Tools & Technologies Used
-SQL → Data Cleaning & Statistical Analysis
-
-Power BI → Dashboard & Data Visualization
-
-Excel/CSV → Raw Data Storage
+ 
+-> Tools & Technologies
+Category	Tools Used
+Data Cleaning	MySQL
+Dashboard & Reporting	Power BI
+Calculations	DAX Measures
+Visualization	Bar Charts, Line Charts, KPI Cards, Tables
 
 -> Repository Files
 File Name	Description
-Blinkit_Analysis.pbix	Power BI dashboard file
-Blinkit_Dataset.csv	Dataset used for the analysis
-Blinkit_SQL_Queries.sql	All SQL queries used in the project
-Dashboard_Screenshots/	Folder containing dashboard screenshots
+blinkit analysis.pbix	Power BI dashboard file
+BlinkIT Grocery Data (1).xlsx	Dataset used for the analysis
+sql_blinkit.sql	All SQL queries used in the project
+blinkkit analysis pdf.pdf containing dashboard screens
 
 -> How to Use
 1 Download the repository or clone it.
-2 Open Blinkit_Analysis.pbix in Power BI Desktop.
-3 Check Blinkit_SQL_Queries.sql for all SQL queries used.
+2 Open blinkit analysis.pbix in Power BI Desktop.
+3 Check sql_blinkit.sql for all SQL queries used.
 4 Explore or modify the dashboard as needed.
 
 

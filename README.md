@@ -29,6 +29,7 @@ Built an interactive dashboard with filters for outlet size, location, and item 
 Visualized KPIs using cards, donut charts, bar charts, and line charts.
 
 🔹 Key Features
+
 ✅ Data Cleaning & Transformation (SQL)
 
 Fixed inconsistent categorical values (LF, low fat → Low Fat; reg → Regular).
@@ -54,27 +55,43 @@ Year-wise, category-wise, and outlet-wise performance breakdown.
 
 
 -> Key Insights
+
  -Total Sales: $1.20M
+ 
  -Average Sales: $141
+ 
  -Average Rating: 3.9
+ 
  -Tier 3 outlets generate the highest sales ($472K)
+ 
  -Medium-sized outlets contribute the highest revenue ($507K, 42.27%)
  
 -> Tools & Technologies
-Category	Tools Used
-Data Cleaning	MySQL
-Dashboard & Reporting	Power BI
-Calculations	DAX Measures
-Visualization	Bar Charts, Line Charts, KPI Cards, Tables
+
+Category	                           Tools Used
+
+Data Cleaning	                      MySQL
+
+Dashboard & Reporting	              Power BI
+
+Calculations	                       DAX Measures
+
+Visualization	                      Bar Charts, Line Charts, KPI Cards, Tables
 
 -> Repository Files
+
 File Name	Description
+
 blinkit analysis.pbix	Power BI dashboard file
+
 BlinkIT Grocery Data (1).xlsx	Dataset used for the analysis
+
 sql_blinkit.sql	All SQL queries used in the project
+
 blinkkit analysis pdf.pdf containing dashboard screens
 
 -> How to Use
+
 1 Download the repository or clone it.
 
 2 Open blinkit analysis.pbix in Power BI Desktop.

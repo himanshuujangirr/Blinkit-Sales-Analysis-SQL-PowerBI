@@ -76,8 +76,11 @@ blinkkit analysis pdf.pdf containing dashboard screens
 
 -> How to Use
 1 Download the repository or clone it.
+
 2 Open blinkit analysis.pbix in Power BI Desktop.
+
 3 Check sql_blinkit.sql for all SQL queries used.
+
 4 Explore or modify the dashboard as needed.
 
 
